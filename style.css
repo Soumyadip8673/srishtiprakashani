@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("/project3/img/pexels-valdemaras-d-1647962.jpg");
+    color: white;
+    font-family: 'Lobster', cursive;
+    background-size: 2306px;
+}
+#container{
+    border: 2px solid black;
+    padding: 2px 2px;
+    background-image: url(/project3/img/river.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+#logo img{
+    margin: 4px 4px;
+    width: 69px;
+    height: 69px;
+}
+#navbar{
+    border: 5px solid rgb(1, 2, 23);
+    margin: 2px 2px;
+    padding: 2px 2px;
+    display: flex;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    margin: 2px 30px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+#navbar ul li:hover,
+#navbar ul li:active{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.para{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+.btn{
+    border: 1px solid rgb(1, 2, 23);
+    border-radius: 8px;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    box-shadow: inset 5px 5px 6px #01010f;
+    text-align: center;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: inset 3px 3px 6px white;
+}
+.containerB{
+    border: 2px solid red;
+    display: flex;
+}
+.categories{
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
